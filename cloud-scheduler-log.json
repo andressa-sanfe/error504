@@ -1,0 +1,26 @@
+{
+  "insertId": "m81m4uf6eghu1",
+  "jsonPayload": {
+    "@type": "type.googleapis.com/google.cloud.scheduler.logging.AttemptFinished",
+    "jobName": "projects/babel-azza-analytics-medallion/locations/us-central1/jobs/create-iceberg-external-tables-scheduler",
+    "targetType": "HTTP",
+    "url": "https://create-iceberg-external-tables-444281546538.us-central1.run.app/",
+    "status": "DEADLINE_EXCEEDED",
+    "debugInfo": "URL_TIMEOUT-TIMEOUT_WEB. Original HTTP response code number = 504"
+  },
+  "httpRequest": {
+    "status": 504
+  },
+  "resource": {
+    "type": "cloud_scheduler_job",
+    "labels": {
+      "project_id": "babel-azza-analytics-medallion",
+      "job_id": "create-iceberg-external-tables-scheduler",
+      "location": "us-central1"
+    }
+  },
+  "timestamp": "2026-08-12T17:37:14.392130917Z",
+  "severity": "ERROR",
+  "logName": "projects/babel-azza-analytics-medallion/logs/cloudscheduler.googleapis.com%2Fexecutions",
+  "receiveTimestamp": "2026-08-12T17:37:14.392130917Z"
+}
